@@ -7,7 +7,7 @@ trait Translatable
 {
     /**
      *  Register Model observer.
-     *
+     * hello world
      *  @return void
      */
     public static function bootTranslatable()
