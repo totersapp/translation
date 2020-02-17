@@ -141,7 +141,7 @@ trait Translatable
      */
     public function isTranslated($attribute)
     {
-        return $this->isTranslatable($attribute) && isset($this->attributes["{$attribute}_translation"]);
+        return $this->isTranslatable($attribute);
     }
 
     /**
